@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Otome Game – Chapter 1, Act 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="game-container">
+  <div id="scene-text" class="fade-in"></div>
+  <div id="choices"></div>
+</div>
+
+<!-- Name input popup -->
+<div id="name-popup">
+  <div id="name-popup-content">
+    <h2>Shin: "Name?"</h2>
+    <input type="text" id="player-name-input" placeholder="Your nickname..." maxlength="20" />
+    <br />
+    <button id="submit-name-btn">Submit</button>
+  </div>
+</div>
+
+<audio id="bgm" loop autoplay>
+  <source src="bgm.mp3" type="audio/mpeg" />
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
